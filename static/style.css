@@ -1,0 +1,63 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    /* This part assigns the font, margins, background color, and aligns text to the center */
+}
+
+
+h1 {
+    color: #0056b3;
+}
+/* Heading color */
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Use help of ChatGPT to make table since I was having problems with the borders*/
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0969ce;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #e7dede;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0d68d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #79e323;
+}
+
+/* In general ChatGPT helped me style to page, I struggled a little bit with this part because of the amount of different elements (Buttons, tables, header, text) */
