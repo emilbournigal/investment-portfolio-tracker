@@ -1,17 +1,21 @@
-# Ignore virtual environment files
-venv/
-__pycache__/
+# Byte-compiled Python files
 *.pyc
+*.pyo
+__pycache__/
 
-# Ignore environment variables
+# Virtual environment directory
+venv/
+env/
+
+# Ignore the pie chart I created for my practice
+static/allocation.png
+
+# Environment variables (Hide API Keys)
 .env
 
-# Ignore OS and IDE-specific files
-.DS_Store
+# Logs
 *.log
-*.idea/
-*.vscode/
 
-# Ignore compiled or temporary files
-*.pyo
-*.swp
+# IDE-specific files
+.vscode/
+.idea/
